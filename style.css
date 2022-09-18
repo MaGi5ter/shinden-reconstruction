@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(65, 61, 61);
+}
+
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.home-button {
+    text-align: left;
+    margin-left: 2px;
+    width: auto;
+}
+
+header .header-left {
+    padding: 0;
+    list-style-type: none;
+    height: 25px;
+    background-color: rgb(121, 192, 224);
+}
+
+header .header-left li:hover {
+    background-color: rgb(101, 162, 204);
+}
+
+header .header-left li {
+    padding: 2px 2px 2px 2px;
+    margin-left: 5px;
+    float: left;
+    width: auto;
+}
+header .header-left li ul{
+    margin: 5px 2px 5px 2px;
+    background-color: aquamarine;
+}
+
+.top-banner {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://shinden.pl/f/skins/8/img/header.gif");
+    background-size: 100%;
+}
+
+.header-list ul {
+    border: solid 1px;
+}
